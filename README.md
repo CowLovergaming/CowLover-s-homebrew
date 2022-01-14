@@ -1,1 +1,1 @@
-# CowLover-s-homebrew
+# CowLovers-homebrew
