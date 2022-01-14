@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+    <info>
+        <name>CowLover's homebrew</name>
+        <update version="0.0.1">
+            <file name="race-volcanus.xml"/>
+        </update>
+    </info>
+    <div class="sidebar">
+    <h5>OPTIONAL FEAT</h5>
+    <h5>Ignis Catus</h5>
+    <p>You have trained to better harness your innate magical capabilities, gaining the following benefits:</p>
+        <p class="indent">
+            <b>
+                <i>Speed</i>
+            </b>
+            30 ft
+        </p>
+        <p class="indent">
+            <b>
+                <i>Cute</i>
+            </b>
+            Increase your Charisma score by 1 every other cat level, to a maximum of 20.
+        </p>
+        <p class="indent">
+            <b>
+                <i>Fire Immunity</i>
+            </b>
+            Your familiar is immune to fire damage.
+        </p>
+        <p class="indent">
+            <b>
+                <i>Fiery Body</i>
+            </b>
+            When a creature within 5 feet of your familiar hits it with a melee attack, the attacking creature takes 1d4 fire damage.
+        </p>
+        <p class="indent">Also, the familiar gains the following additional actions:</p>
+        <p class="indent">
+            <b>
+                <i>Ignite</i>
+            </b>
+            The familiar touches an object that isn’t being worn or carried, and ignites it.
+        </p>
+        <p class="indent">
+            <b>
+                <i>Exploding kitten</i>
+            </b>
+            The familiar leaps towards an enemy within 10ft and explodes dealing 2d4 + 1 in fire damage.
+        </p>
+        <p class="indent">
+            <b>
+                <i>Cat level system</i>
+            </b>
+        </p>
+        <p class="indent">
+                Lv 1: 0 kills (2d4 + 1 fire damage) (+1 Charisma)
+                Lv 2: 3 kills (2d6 - 1 fire damage)
+                Lv 3: 7 kills (2d6  + 1 fire damage) (+1 Charisma)
+                Lv 4: 15 kills (4d4 fire damage)
+                Lv 5: 25 kills (3d6 + 2 fire damage) (+1 Charisma)
+            </p>
+</div>
+    <element name="Ignis Catus" type="Feat" id="ID_JONOMAN3000_BDPC_FEAT_FIERY_FAMILIAR">
+        <description>
+            <p>You have trained to better harness your innate magical capabilities, gaining the following benefits:</p>
+            <p class="indent">
+                <b>
+                    <i>Speed</i>
+                </b>
+                30 ft
+            </p>
+            <p class="indent">
+                <b>
+                    <i>Cute</i>
+                </b>
+                Increase your Charisma score by 1 every other cat level, to a maximum of 20.
+            </p>
+            <p class="indent">
+                <b>
+                    <i>Fire Immunity</i>
+                </b>
+                Your familiar is immune to fire damage.
+            </p>
+            <p class="indent">
+                <b>
+                    <i>Fiery Body</i>
+                </b>
+                When a creature within 5 feet of your familiar hits it with a melee attack, the attacking creature takes 1d4 fire damage.
+            </p>
+            <p class="indent">Also, the familiar gains the following additional actions:</p>
+            <p class="indent">
+                <b>
+                    <i>Ignite</i>
+                </b>
+                The familiar touches an object that isn’t being worn or carried, and ignites it.
+            </p>
+            <p class="indent">
+                <b>
+                    <i>Exploding kitten</i>
+                </b>
+                The familiar leaps towards an enemy within 10ft and explodes dealing 2d4 + 1 in fire damage.
+            </p>
+            <p class="indent">
+                <b>
+                    <i>Cat level system</i>
+                </b>
+            </p>
+            <p class="indent">
+                Lv 1: 0 kills (2d4 + 1 fire damage) (+1 Charisma)
+                Lv 2: 3 kills (2d6 - 1 fire damage)
+                Lv 3: 7 kills (2d6  + 1 fire damage) (+1 Charisma)
+                Lv 4: 15 kills (4d4 fire damage)
+                Lv 5: 25 kills (3d6 + 2 fire damage) (+1 Charisma)
+            </p>
+        </description>
+        <sheet>
+            <description></description>
+        </sheet>
+        <rules>
+            <stat name="charisma" value="1" />
+            <grant type="Spell" id="ID_PHB_SPELL_FIND_FAMILIAR" />
+        </rules>
+    </element>
+</elements>
