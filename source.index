@@ -3,7 +3,7 @@
     <elements>
         <info>
             <update version="0.0.1">
-                <file name="source.index" url="https://raw.githubusercontent.com/CowLovergaming/CowLovers-homebrew/main/source.xml" />
+                <file name="source.index" url="https://raw.githubusercontent.com/CowLovergaming/CowLovers-homebrew/main/source.index" />
             </update>
         </info>
         <element name="CowLover's homebrew" type="Source" source="Core" id="ID_COWLOVER_SOURCE_COWLOVERS_HOMEBREW">
