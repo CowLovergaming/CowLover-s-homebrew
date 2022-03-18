@@ -6,9 +6,9 @@
         </update>
     </info>
     <element name="CowLover's homebrew" type="Source" source="Core" id="ID_COWLOVER_SOURCE_COWLOVERS_HOMEBREW"
-        <description>
+         <description>
             <![CDATA[<p>My own homebrews.</p>]]>
-        </description>
+         </description>
         <setters>
             <set name="abbreviation">COW</set>
             <set name="url">https://www.github.com/CowLovergaming/CowLovers-homebrew</set>
