@@ -3,7 +3,7 @@
     <info>
         <name>CowLover's homebrew</name>
         <update version="0.0.2">
-            <file name="cowlovers-homebrew.xml" url="https://raw.githubusercontent.com/CowLovergaming/CowLovers-homebrew/main/cowlovers-homebrew.index" />
+            <file name="cowlovers-homebrew.xml" url="https://raw.githubusercontent.com/CowLovergaming/CowLovers-homebrew/main/cowlovers-homebrew.xml" />
         </update>
     </info>
     <element name="Ignis Catus" type="Feat" source="CowLover's homebrew" id="ID_COWLOVER_COW_FEAT_IGNIS_CATUS">
