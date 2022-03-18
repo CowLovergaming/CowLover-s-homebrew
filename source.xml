@@ -5,14 +5,15 @@
             <file name="source.xml" url="https://raw.githubusercontent.com/CowLovergaming/CowLovers-homebrew/main/source.xml" />
         </update>
     </info>
-    <element name="CowLover's homebrew" type="Source" source="Core" id="ID_COWLOVER_SOURCE_COWLOVERS_HOMEBREW"/>
+    <element name="CowLover's homebrew" type="Source" source="Core" id="ID_COWLOVER_SOURCE_COWLOVERS_HOMEBREW"
         <description>
             <![CDATA[<p>My own homebrews.</p>]]>
         </description>
         <setters>
             <set name="abbreviation">COW</set>
-            <set name="url">https://github.com/CowLovergaming/CowLovers-homebrew</set>
+            <set name="url">https://www.github.com/CowLovergaming/CowLovers-homebrew</set>
             <set name="author" abbreviation="COW">CowLover</set>
             <set name="homebrew">true</set>
         </setters>
+    </element>
 </elements>
