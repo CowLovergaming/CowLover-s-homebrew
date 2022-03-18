@@ -2,7 +2,7 @@
 <index>
     <info>
         <update version="0.0.2">
-            <file name="CowLovers-homebrew.index" url="https://raw.githubusercontent.com/CowLovergaming/CowLovers-homebrew/main/CowLovers-homebrew.index" />
+            <file name="source.index" url="https://raw.githubusercontent.com/CowLovergaming/CowLovers-homebrew/main/source.index" />
         </update>
     </info>
     <files>
