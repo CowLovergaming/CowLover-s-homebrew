@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>CowLover's homebrew</name>
-        <update version="0.0.2">
+        <update version="0.0.3">
             <file name="cowlovers-homebrew.xml" url="https://raw.githubusercontent.com/CowLovergaming/CowLovers-homebrew/main/cowlovers-homebrew.xml" />
         </update>
     </info>
@@ -103,6 +103,60 @@
             <set name="slot">onehand,primary</set>
             <set name="damage" type="bludgeoning">1d6</set>
             <set name="proficiency">ID_COW_PROFICIENCY_WEAPON_PROFICIENCY_SLING</set>
+        </setters>
+    </element>
+    <element name="Super Soaker 9000" type="Weapon" source="CowLover's homebrew" id="ID_COWLOVER_COW_WEAPON_SUPER_SOAKER_9000">
+        <description>
+            <p>The Super Soaker 9000 is a water gun that soaks. It sqirts 5 liters per attack.</p>
+            <p class="indent">
+                <b>
+                    <i>Soak</i>
+                </b>
+                5 liters per attack
+            </p>
+            <p class="indent">
+                <b>
+                    <i>Gun level system</i>
+                </b>
+            </p>
+            <p class="indent">
+                <b>
+                    <i>Lv 1:</i>
+                </b>
+                0 liters (1d4 + 1)
+            </p>
+            <p class="indent">
+                <b>
+                    <i>Lv 2:</i>
+                </b>
+                10 liters (2d4)
+            </p>
+            <p class="indent">
+                <b>
+                    <i>Lv 3:</i>
+                </b>
+                20 liters (1d4 + 1d6)
+            </p>
+            <p class="indent">
+                <b>
+                    <i>Lv 4:</i>
+                </b>
+                35 liters (2d6)
+            </p>
+            <p class="indent">
+                <b>
+                    <i>Lv 5:</i>
+                </b>
+                50 liters (2d6 + 1d4)
+            </p>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="cost" currency="gp">9000gp</set>
+            <set name="weight" lb="10">10 lb.</set>
+            <set name="slot">onehand,primary</set>
+            <set name="damage" type="force">1d4 + 1</set>
+            <set name="proficiency">ID_COW_PROFICIENCY_WEAPON_PROFICIENCY_SUPER_SOAKER_9000</set>
         </setters>
     </element>
 </elements>
